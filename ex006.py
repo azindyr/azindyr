@@ -1,0 +1,5 @@
+print('=' * 15, 'Exercício 6', '=' * 15)
+n1 = int(input('Digite um número para ver seu dobro, triplo e raiz quadrada:'))
+print('O dobro de {} é {}.'.format(n1, n1 * 2))
+print('O triplo de {} é {}.'.format(n1, n1 * 3))
+print('A raiz quadrada de {} é igual a {:.2f}.'.format(n1, n1 ** (1 / 2)))
